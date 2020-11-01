@@ -82,9 +82,7 @@ We found that the result is different when run at VM,
 
 ## Raspberry Pi 3 Model B+
 
-:::danger
 without `-ccopts -march=armv8-a` such error will occurs **selected processor does not support `dsb sy` in ARM mode**
-:::
 
 ```shell
 $ litmus7 sb_dmbs.litmus -ccopts -march=armv8-a
