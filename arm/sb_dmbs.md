@@ -79,3 +79,23 @@ Observation SB+dmbs Never 0 3
 
 We found that the result is different when run at VM, 
 `0:R1=0; 1:R1=0` is exists when run at VM
+
+## Raspberry Pi 3 Model B+
+
+:::danger
+without `-ccopts -march=armv8-a` such error will occurs **selected processor does not support `dsb sy` in ARM mode**
+:::
+
+```shell
+$ litmus7 sb_dmbs.litmus -ccopts -march=armv8-a
+...
+Test SB+dmbs Allowed
+Histogram (3 states)
+438024:>0:R1=1; 1:R1=0;
+438206:>0:R1=0; 1:R1=1;
+123770:>0:R1=1; 1:R1=1;
+No
+```
+![](https://i.imgur.com/Q2ncTZx.png)
+
+
