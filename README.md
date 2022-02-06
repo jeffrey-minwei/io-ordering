@@ -1,6 +1,6 @@
 # Notes on I/O ordering
 
-Regarding the example presented by Arm distinguished engineer [Will Deacon](https://www.linkedin.com/in/will-deacon-47946520/) on the presentation [Uh-oh; it's I/O ordering](https://elinux.org/images/a/a8/Uh-oh-Its-IO-Ordering-Will-Deacon-Arm.pdf)
+Regarding the example presented by Google software engineer [Will Deacon](https://www.linkedin.com/in/will-deacon-47946520/) on the presentation [Uh-oh; it's I/O ordering](https://elinux.org/images/a/a8/Uh-oh-Its-IO-Ordering-Will-Deacon-Arm.pdf)
 
 [[`source`](https://elinux.org/images/a/a8/Uh-oh-Its-IO-Ordering-Will-Deacon-Arm.pdf#%5B%7B%22num%22%3A60%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22Fit%22%7D%5D)]
 #### Example: store buffering
